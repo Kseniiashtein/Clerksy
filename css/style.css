@@ -18,7 +18,6 @@
 a {
   text-decoration: none;
 }
-
 header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -46,16 +45,20 @@ header nav {
   padding-bottom: 15.5px;
 }
 
-header nav li {
-  margin-left: 24px;
+header nav a {
   color: #fbfaf7;
-  text-align: right;
+  /* text-align: right; */
   font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
+
+header li > a {
+  margin-right: 24px;
+}
+
 header .button {
   padding: 15px 25px;
   border-radius: 160px;
@@ -87,10 +90,6 @@ section.main .container {
   padding-top: 120px;
   padding-bottom: 130px;
 }
-section.main article {
-  width: 475px;
-  height: 294px;
-}
 
 section.main article h1 {
   width: 391px;
@@ -104,6 +103,7 @@ section.main article h1 {
 }
 
 section.main article p {
+  width: 475px;
   color: #fbfaf7;
   font-family: "Noto Sans";
   font-size: 18px;
