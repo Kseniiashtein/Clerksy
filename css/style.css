@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "noto_sansregular";
+  src: url("../fonts/notosans-regular-webfont.eot") format("embedded-opentype"),
+    url("../fonts/notosans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/notosans-regular-webfont.woff") format("woff"),
+    url("../fonts/notosans-regular-webfont.ttf") format("truetype"),
+    url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #163a24;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+header nav {
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+}
+
+header nav li {
+  margin-left: 24px;
+  color: #fbfaf7;
+  text-align: right;
+  font-family: "noto_sansregular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .button {
+  padding: 15px 25px;
+  border-radius: 160px;
+  background: #198c36;
+  margin-right: 10px;
+  width: 141px;
+  height: 52px;
+}
+
+header a,
+header li {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+section.main {
+  background-color: #163a24;
+}
+section.main .wrapper {
+  max-width: 1280px;
+  margin: auto;
+  background-image: url(../images/Frame.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+section.main .container {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+section.main article {
+  width: 475px;
+  height: 294px;
+}
+
+section.main article h1 {
+  width: 391px;
+  color: #fbfaf7;
+  font-family: "noto_sansregular";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 65.25px; /* 135.938% */
+  margin-bottom: 18px;
+}
+
+section.main article p {
+  color: #fbfaf7;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
