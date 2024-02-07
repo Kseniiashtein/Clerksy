@@ -9,6 +9,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "recoletasemibold";
+  src: url("../fonts/recoleta-semibold-webfont.eot");
+  src: url("../fonts/recoleta-semibold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/recoleta-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/recoleta-semibold-webfont.woff") format("woff"),
+    url("../fonts/recoleta-semibold-webfont.ttf") format("truetype"),
+    url("../fonts/recoleta-semibold-webfont.svg#recoletasemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -55,8 +68,9 @@ header nav a {
   line-height: normal;
 }
 
-header li > a {
-  margin-right: 24px;
+header li > a,
+header .button {
+  margin-left: 24px;
 }
 
 header .button {
@@ -77,10 +91,11 @@ header li {
 section.main {
   background-color: #163a24;
 }
+
 section.main .wrapper {
   max-width: 1280px;
   margin: auto;
-  background-image: url(../images/Frame.svg);
+  background-image: url(../images/background.svg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -94,7 +109,7 @@ section.main .container {
 section.main article h1 {
   width: 391px;
   color: #fbfaf7;
-  font-family: "noto_sansregular";
+  font-family: "recoletasemibold";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -105,9 +120,116 @@ section.main article h1 {
 section.main article p {
   width: 475px;
   color: #fbfaf7;
-  font-family: "Noto Sans";
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px; /* 150% */
+}
+
+section.partner {
+  padding-top: 114px;
+  padding-bottom: 120px;
+}
+
+section.partner h2 {
+  color: #163a24;
+  text-align: center;
+  font-family: "recoletasemibold";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px; /* 112.5% */
+  margin-bottom: 66px;
+}
+
+section.partner .wrapper {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 896px;
+  gap: 86px;
+  align-items: center;
+}
+
+section.partner .wrapper img {
+  max-width: 110px;
+}
+
+section.production {
+  background-color: #163a24;
+  padding-top: 66px;
+  padding-bottom: 120px;
+}
+
+section.production h2 {
+  color: #fbfaf7;
+  text-align: center;
+  font-family: "recoletasemibold";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px; /* 112.5% */
+  margin-bottom: 74px;
+}
+
+section.production .wrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1180px;
+}
+
+section.production article {
+  max-width: 295px;
+  align-items: center;
+}
+
+section.production article p {
+  color: #fbfaf7;
+  text-align: center;
+  font-family: "noto_sansregular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+section.production article img {
+  display: block;
+  margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.employees {
+  background: #f2efe6;
+  padding-top: 114px;
+  padding-bottom: 120px;
+}
+
+section.employees h2 {
+  color: #163a24;
+  text-align: center;
+  font-family: "recoletasemibold";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px; /* 112.5% */
+  max-width: 739px;
+  margin-bottom: 27px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.employees p {
+  color: #163a24;
+  text-align: center;
+  font-family: "noto_sansregular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
 }
