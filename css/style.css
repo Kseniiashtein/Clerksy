@@ -60,7 +60,6 @@ header nav {
 
 header nav a {
   color: #fbfaf7;
-  /* text-align: right; */
   font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
@@ -107,7 +106,7 @@ section.main .container {
 }
 
 section.main article h1 {
-  width: 391px;
+  max-width: 391px;
   color: #fbfaf7;
   font-family: "recoletasemibold";
   font-size: 48px;
@@ -118,7 +117,7 @@ section.main article h1 {
 }
 
 section.main article p {
-  width: 475px;
+  max-width: 475px;
   color: #fbfaf7;
   font-family: "noto_sansregular";
   font-size: 18px;
@@ -154,7 +153,7 @@ section.partner .wrapper {
 }
 
 section.partner .wrapper img {
-  max-width: 110px;
+  width: 110px;
 }
 
 section.production {
@@ -181,7 +180,7 @@ section.production .wrapper {
 }
 
 section.production article {
-  max-width: 295px;
+  width: 295px;
   align-items: center;
 }
 
@@ -294,7 +293,7 @@ section.together .wrapper {
 }
 
 section.together h2 {
-  width: 338px;
+  max-width: 338px;
   color: #163a24;
   font-family: "recoletasemibold";
   font-size: 48px;
@@ -305,7 +304,7 @@ section.together h2 {
 }
 
 section.together p {
-  width: 379px;
+  max-width: 379px;
   color: #163a24;
   font-family: "noto_sansregular";
   font-size: 18px;
@@ -352,7 +351,7 @@ section.consider .container .wrapper {
 
 section.consider .container .wrapper div {
   padding-left: 40px;
-  width: 353px;
+  max-width: 353px;
   border-radius: 15px;
   background: #fbfaf7;
   box-shadow: 5px 5px 20px 0px #e9e4d5;
@@ -509,7 +508,7 @@ section.ebook .wrapper {
 }
 
 section.ebook .article {
-  width: 393px;
+  max-width: 393px;
 }
 
 section.ebook h3 {
@@ -562,7 +561,7 @@ section.start .container {
   padding-top: 114px;
   padding-bottom: 124px;
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   margin-left: auto;

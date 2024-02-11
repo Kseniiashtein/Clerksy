@@ -1,0 +1,194 @@
+@media screen and (max-width: 428px) {
+  .container,
+  header ul {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  header ul {
+    text-align: center;
+  }
+
+  header li > a {
+    margin-left: 0;
+  }
+
+  header .button {
+    margin: auto;
+  }
+
+  section.main .container {
+    padding-top: 20px;
+    height: 755px;
+  }
+
+  section.main article {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  section.main .wrapper {
+    margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  }
+
+  section.reason {
+    padding-top: 20px;
+    height: 926px;
+  }
+
+  section.reason .img-top,
+  section.reason .img-bottom {
+    width: 50%;
+  }
+
+  section.reason .article-top {
+    position: relative;
+    top: -310px;
+  }
+
+  section.reason .img-top {
+    position: relative;
+    top: 200px;
+  }
+
+  section.reason .article-bottom {
+    position: relative;
+    top: -150px;
+  }
+
+  section.reason .img-bottom {
+    position: relative;
+    top: -230px;
+  }
+
+  section.partner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  section.partner .wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  section.partner h2 {
+    margin-bottom: 20px;
+  }
+
+  section.production {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section.production .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  section.employees {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  section.employees img {
+    width: 100%;
+  }
+
+  section.together {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  section.together .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section.together .wrapper {
+    display: block;
+  }
+
+  section.together img {
+    width: 100%;
+  }
+
+  section.consider .container .wrapper {
+    display: block;
+    padding-left: 27px;
+  }
+
+  section.consider .container .wrapper div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  section.call {
+    display: block;
+    padding-top: 20px;
+  }
+
+  section.call .container .wrapper {
+    display: block;
+    padding-left: 73px;
+    padding-right: 73px;
+  }
+
+  section.call .container .wrapper img {
+    transform: rotate(90deg);
+    margin-left: 87px;
+  }
+  section.call .container .relative {
+    margin-left: 0;
+    top: 45px;
+  }
+
+  section.call .container .wrapper img.ring {
+    transform: rotate(0deg);
+    margin-left: 0;
+  }
+
+  section.call .link {
+    position: relative;
+    top: 80px;
+  }
+
+  section.ebook {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  section.ebook .wrapper {
+    display: block;
+  }
+
+  section.ebook .link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section.ebook .wrapper img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  section.start {
+    display: block;
+  }
+
+  section.start .container {
+    margin-right: 0;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  section.start .right,
+  section.start .left {
+    width: 20%;
+    bottom: 0;
+  }
+}
